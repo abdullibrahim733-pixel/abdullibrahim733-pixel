@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="16" height="11">
+  <rect width="900" height="600" fill="#1EB53A"/>
+  <rect width="900" height="600" fill="#FCD116" clip-path="url(#c)"/>
+  <rect width="900" height="600" fill="#00A3DD" clip-path="url(#c2)"/>
+  <defs>
+    <clipPath id="c">
+      <polygon points="0,0 900,0 900,200 0,400 0,600 0,200"/>
+    </clipPath>
+    <clipPath id="c2">
+      <polygon points="0,0 900,600 900,400 0,200 0,0 900,600" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+</svg>
